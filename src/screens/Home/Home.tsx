@@ -5,12 +5,16 @@ import { StatusBar } from 'expo-status-bar';
 import { BatLogo } from '../../components/BatLogo/BatLogo';
 
 import styles from "./HomeStyles";
+import { BatTextInput } from '../../components/BatTextInput/BatTextInput';
 
 const Home = () => {
   return (
     <View style={styles.appContainer}>
       <View style={styles.logoContainer}>
         <BatLogo />
+      </View>
+      <View>
+        <BatTextInput />
       </View>
       <Text>
         Home works!!
